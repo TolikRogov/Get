@@ -2,8 +2,8 @@ import RPi.GPIO as GPIO
 
 dac = [8, 11, 7, 1, 0, 5, 12, 6]
 
-GPIO.setmode(GPIO. BCM)
-GPIO.setup(dac, GPIO. OUT)
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(dac, GPIO.OUT)
 
 def decimal2binary(value):
 	return [int(bit) for bit in bin (value)[2:].zfill(8)]
