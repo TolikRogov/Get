@@ -34,7 +34,6 @@ plt.xlabel('Время, с', fontsize=12)
 plt.ylabel('Напряжение, В', fontsize=12)
 
 ax = plt.gca()
-
 ax.grid(
     visible=True,
     which='major',
