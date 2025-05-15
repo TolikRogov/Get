@@ -3,6 +3,7 @@ import time
 from matplotlib import pyplot
 
 GPIO.setmode(GPIO.BCM)
+
 leds = [2, 3, 4, 17, 27, 22, 10, 9]
 GPIO.setup(leds, GPIO.OUT)
 
